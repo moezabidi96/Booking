@@ -1,0 +1,173 @@
+.modalContainer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.319);
+
+
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalImage {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.close {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 101;
+    right: calc(50% - 25px);
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: lightgray;
+
+}
+
+
+
+.arrow {
+    width: 50px;
+    height: 50px;
+
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.hotelBody {
+    display: flex;
+    justify-content: center;
+}
+
+.hotelContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+
+}
+
+.topContainer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.hotelInformation {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.hotelTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hotelAddress {
+    font-size: 13px;
+}
+
+.hotelDistance {
+    font-size: 15;
+    color: rgb(8, 87, 189);
+    font-weight: 500;
+}
+
+.hotelPriceHighlight {
+    font-size: 15;
+    color: rgb(8, 189, 107);
+    font-weight: 500;
+}
+
+.bookNow {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: #003580;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bookNow:active,
+.bookNow:hover {
+    background-color: #003580a1;
+
+}
+
+.hotelImages {
+    display: flex;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.hotelImg {
+    width: 33%;
+
+    object-fit: cover;
+
+    cursor: pointer;
+}
+
+.hotelDetails {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hotelDetailsTexts {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.hotelDesc {
+    font-size: 15px;
+    line-height: 20px;
+
+}
+
+.hotelDetailsPrice {
+    background-color: rgb(197, 219, 233);
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+
+}
+
+.hotelDetailsPrice h1 {
+    color: rgb(129, 127, 127);
+    font-size: 20px;
+}
+
+.hotelDetailsPrice span {
+
+    font-size: 14px;
+}
+
+.hotelDetailsPrice b {
+
+    font-weight: normal;
+}

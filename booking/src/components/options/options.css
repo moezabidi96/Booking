@@ -1,0 +1,41 @@
+.options {
+    position: absolute;
+    top: 50px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid lightgray;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.optionItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.optionCounterButton {
+    background-color: white;
+    border: 2px solid #0071c2;
+    color: #0071c2;
+    font-size: 15px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.optionCounterButton:disabled {
+    background-color: lightgray;
+    border: none;
+}
+
+.optionCounterNumber {
+
+
+    color: #0071c2;
+    font-size: 20px;
+    margin: 0px 10px;
+}

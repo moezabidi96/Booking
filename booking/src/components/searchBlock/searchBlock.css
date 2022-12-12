@@ -1,0 +1,82 @@
+.listSearch {
+    flex: 1;
+    height: max-content;
+    background-color: #f2bb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+}
+
+.lsTitle {
+    font-size: 20px;
+    color: #555;
+    margin-left: 10px;
+
+}
+
+.label {
+
+    font-size: 12px;
+    color: #555;
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.inputSearch {
+    display: flex;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 100%;
+    padding: 0px 10px;
+
+}
+
+.date__Container {
+    position: relative;
+}
+
+.inputdate {
+    display: flex;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 100%;
+    padding: 0px 10px;
+    cursor: pointer;
+
+}
+
+.date {
+    position: absolute;
+    top: 30px;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    color: rgb(75, 74, 74);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.inputOption {
+    width: 50px;
+    outline: none;
+    border: none;
+}
+
+.listSearch>button {
+    background-color: #003580;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
